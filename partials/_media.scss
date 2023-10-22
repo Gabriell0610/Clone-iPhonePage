@@ -1,0 +1,52 @@
+@media screen and (max-width: 480px)  {
+
+   #nav-bar  {
+        li {
+            display: none;
+        }
+   }
+
+   #nav-bar .logo {
+        display: flex;
+    }
+
+    #nav-bar-bottom {
+       max-width: 500px;
+       padding: 0 2rem;
+
+       h3{
+        font-size: 14px;
+       }
+
+       li {
+        display: none;
+       }
+    }
+    
+
+    #main-content {
+        padding: 2rem;
+        overflow: hidden;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .text {
+            padding: 0 .5rem;
+            width: 100%;
+            text-align: center;
+           
+        }
+    }
+
+    #buttons {
+        width: 100%;
+        gap: 1.5rem;
+        
+    }
+
+    
+
+   
+}

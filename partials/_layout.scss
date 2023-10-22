@@ -1,0 +1,156 @@
+
+
+#nav-bar {
+ background-color: #333;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 1000px;
+        margin: 0 auto;
+        font-size: 0.7rem;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+#header-bottom {
+    border-bottom: 1px solid #ccc;
+}
+
+#nav-bar-bottom  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .ul-items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        gap: 1.5rem;
+        font-size: .8rem;
+        color: #333;
+        cursor: pointer;
+    }
+
+    .btn-header {
+        background-color: #0071e3;
+        border-radius: 15px;
+        border: 0;
+        color: #fff;
+        padding: .4rem 1rem;
+        cursor: pointer;  
+    }
+}
+
+#saiba-mais {
+    background-color: #f5f5f7;
+    text-align: center;
+    font-size: .8rem;
+    padding: 1rem;
+    a {
+        color: #0071e3;
+    }
+}
+
+#main-content {
+    text-align: center;
+    h4 {
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+
+    h1 {
+        margin: 2rem 0;
+        font-size: 4rem;
+        color: #1b1b1b
+    }
+
+    .text{
+        width: 570px;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #202020;
+    }
+
+    .price {
+        margin-top: 3rem;
+        font-size: 1.4rem;
+        color: #858383;
+    }
+
+    .btn-main {
+        margin: 2rem 0;
+        color: #fff;
+        background-color: #0071e3;
+        border: 0;
+        padding: 0.8rem 1.4rem;
+        border-radius: 10rem;
+        font-size: 1.2rem;
+
+        
+    }
+}
+
+
+#img-iphone {
+    height: 180px;
+    transition: .5s;
+    margin: 2rem 0;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 1000px;
+    margin: 3rem auto;
+
+    button {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        border: 3px solid #ffffff;
+        box-shadow: 1px 1px 1px;
+        cursor: pointer;
+    }
+
+
+    p {
+        font-size: 12px;
+        margin-top: .4rem;
+    }
+}
+
+.select {
+    outline: 2px solid #0071e3;
+}
+
+#green {
+    background-color: #394c38;
+}
+
+#silver {
+    background-color: #c7c9c2;
+}
+
+#golden {
+    background-color: #fae7cf;
+}
+
+#grafite {
+    background-color: #54524f;
+}
+
+#blue {
+    background-color: #a7c1d9;
+}
+
+
+
+
